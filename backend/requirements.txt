@@ -26,3 +26,4 @@ toml==0.10.2
 tomli==1.2.1
 urllib3==1.26.6
 psycopg2-binary
+dj-database-url
