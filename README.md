@@ -12,7 +12,9 @@ Docker was used in this application as a demostration, Docker files and docker-c
 
 the database used is Postgres, 
 
-for more :
+deploymen with Gunicorn to Heroku
+
+future add :
 
   It is possible to add a e-mail service to alert customers or send bills, the usage of Celery for queueing with Redis or RabbitMq
 
