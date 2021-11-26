@@ -10,6 +10,8 @@ Nginx was used as reverse proxy,
 
 Docker was used in this application as a demostration, Docker files and docker-compose,
 
+the database used is Postgres, 
+
 for more :
 
   It is possible to add a e-mail service to alert customers or send bills, the usage of Celery for queueing with Redis or RabbitMq
