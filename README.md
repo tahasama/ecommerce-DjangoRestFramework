@@ -20,4 +20,4 @@ future add :
 
   It is possible to add a e-mail service to alert customers or send bills, the usage of Celery for queueing with Redis or RabbitMq
 
-  Also possible to use caching system with Redis
+ ' Possible to use caching system with Redis
