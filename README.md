@@ -1,23 +1,22 @@
-# ecommerce-DjangoRestFramework
+# E-commerce Django Rest Framework
 
-An E-commerce API with Django Rest Framework.
+An E-commerce API built with Django Rest Framework.
 
-Users can register, login, create orders, modify them...and an admin panel for the admin with permissions etc
+## Features
 
-The login system is built with Json Web Token.
+- User authentication (registration, login)
+- Order creation and modification
+- Admin panel with permissions
+- Json Web Token for the login system
+- Nginx as a reverse proxy for Gunicorn
+- Docker for demonstration purposes (Docker files and docker-compose included)
+- PostgreSQL as the database
+- Deployment with Gunicorn to Heroku
 
-Nginx was used as reverse proxy for Gunicorn
+## Future Additions
 
-Docker was used in this application as a demostration, Docker files and docker-compose,
+- Implementation of various payment technologies (Braintree, Paypal, Stripe...) directly in the order view. Consider using Atomic Transactions.
+- Integration of an email service to alert customers or send bills. Utilize Celery for queuing with Redis or RabbitMQ.
+- Possibility to implement a caching system with Redis.
 
-the database used is Postgres, 
-
-deploymen with Gunicorn to Heroku
-
-future add :
-
-  Any technology can be implemented for payments (Braintree, Paypal, Stripe...) directly in the order view, I recommend using it with Atomic Transactions 
-
-  It is possible to add a e-mail service to alert customers or send bills, the usage of Celery for queueing with Redis or RabbitMq
-
- ' Possible to use caching system with Redis
+Feel free to customize and expand upon this template to better suit your project. Add code snippets, installation instructions, or any other relevant information to help users understand and use your E-commerce Django Rest Framework application.
